@@ -21,6 +21,30 @@
 10. **10_lined_blue.pdf** - 파란색 줄 노트
 11. **11_lined_pink.pdf** - 핑크색 줄 노트
 
+## 📝 실제 작성 예제 (samples 폴더)
+
+실제로 작성된 노트 예제들을 제공합니다. 어떻게 활용할 수 있는지 참고하세요!
+
+1. **example_python_study_notes.pdf** - Python 프로그래밍 학습 노트
+   - 변수, 데이터 타입, 조건문, 반복문 정리
+   - 핵심 요약 박스와 다음 학습 계획 포함
+
+2. **example_meeting_notes.pdf** - 프로젝트 기획 회의록
+   - 회의 정보, 안건, 주요 논의 내용
+   - 액션 아이템과 담당자, 마감일 정리
+
+3. **example_daily_journal.pdf** - 일상 기록 일기
+   - 하루 일과와 생각 정리
+   - 감사 일기와 내일의 목표 섹션
+
+4. **example_recipe_note.pdf** - 토마토 크림 파스타 레시피
+   - 재료 리스트와 조리 순서
+   - 요리 팁과 포인트 정리
+
+5. **example_book_notes.pdf** - 독서 노트 (코넬 노트 스타일)
+   - 책 주요 내용 정리
+   - 핵심 키워드와 요약 포함
+
 ## 🚀 사용 방법
 
 ### GoodNotes에서 템플릿 가져오기
@@ -44,14 +68,16 @@
 # 필요한 라이브러리 설치
 pip install reportlab Pillow
 
-# 템플릿 생성 스크립트 실행
+# 빈 템플릿 생성
 python3 create_templates.py
+
+# 샘플 노트 생성 (내용이 채워진 예제)
+python3 create_sample_notes.py
 ```
 
-`create_templates.py` 파일을 수정하여:
-- 줄 간격 조정
-- 색상 변경
-- 새로운 템플릿 추가
+스크립트 파일을 수정하여:
+- `create_templates.py`: 줄 간격, 색상, 레이아웃 조정
+- `create_sample_notes.py`: 새로운 예제 노트 추가
 
 ## 📐 템플릿 사양
 
